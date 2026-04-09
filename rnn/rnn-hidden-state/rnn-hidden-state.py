@@ -5,4 +5,4 @@ def init_hidden(batch_size: int, hidden_dim: int) -> np.ndarray:
     Initialize the hidden state for an RNN.
     """
     # YOUR CODE HERE
-    return np.zeros((batch_size, hidden_dim))
+    return np.zeros((batch_size, hidden_dim), dtype = np.float64)
